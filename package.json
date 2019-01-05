@@ -1,0 +1,25 @@
+{
+  "name": "simple-mongo-api",
+  "version": "1.0.0",
+  "description": "An extremely simple example of an API to fetch data from MongoDB using Express",
+  "main": "simple-mongo-api.js",
+  "scripts": {
+    "start": "node simple-mongo-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcallenbetts/simple-mongo-api.git"
+  },
+  "author": "Marc Betts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcallenbetts/simple-mongo-api/issues"
+  },
+  "homepage": "https://github.com/marcallenbetts/simple-mongo-api#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.2"
+  }
+}
