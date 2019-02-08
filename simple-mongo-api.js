@@ -3,8 +3,9 @@ require ('dotenv').config()
 var express = require('express')
 var app = express()
 var port = process.env.PORT || 4001
-var mongodbUri = process.env.MONGO_CONNECTION_STRING
+var mongodbUri = `${process.env.MONGO_CONNECTION_STRING}`
 var mongoose = require('mongoose')
+
 mongoose.connect(mongodbUri, { useNewUrlParser: true, useFindAndModify: false, 'useCreateIndex': true })
 
 var Schema = mongoose.Schema
