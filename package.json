@@ -19,7 +19,7 @@
   "homepage": "https://github.com/marcallenbetts/simple-mongo-api#readme",
   "dependencies": {
     "dotenv": "^6.2.0",
-    "express": "^4.16.4",
-    "mongoose": "^5.4.2"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3"
   }
 }
